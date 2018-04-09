@@ -36,7 +36,7 @@ defmodule GCloudex.Mixfile do
   defp deps do
     [
       {:httpoison, "~> 1.0.0"},
-      {:goth,      "~> 0.8.0"},
+      {:goth, git: "git@github.com:dsignr/gcloudex.git"},
       {:poison,    "~> 3.0"},
       {:credo,     "~> 0.3.13", only: [:dev, :test]},
       {:ex_doc,    ">= 0.11.0", only: [:dev]},
